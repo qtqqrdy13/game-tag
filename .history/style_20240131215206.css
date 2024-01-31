@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/375939-pixel-background-tumblr-1920x1200-for-windows.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100);
+    grid-template-rows: repeat(4, 100);
+    gap: 5px;
+}
